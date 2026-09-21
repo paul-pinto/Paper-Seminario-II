@@ -1,0 +1,4 @@
+﻿split,bearish,bullish,neutral
+train,4644,6120,7855
+validation,946,1167,1338
+test,392,311,520

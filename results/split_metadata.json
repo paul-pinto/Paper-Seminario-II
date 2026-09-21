@@ -1,0 +1,25 @@
+{
+  "strategy": "strict chronological year-based split",
+  "train_period": {
+    "start": "2021-01-01 09:34:00",
+    "end": "2023-12-31 15:55:00",
+    "rows": 18619
+  },
+  "validation_period": {
+    "start": "2024-01-01 12:14:00",
+    "end": "2024-12-31 21:30:13",
+    "rows": 3451
+  },
+  "test_period": {
+    "start": "2025-01-01 08:57:13",
+    "end": "2025-05-23 19:55:52",
+    "rows": 1223
+  },
+  "label_mapping": {
+    "0": "neutral",
+    "1": "bearish",
+    "2": "bullish"
+  },
+  "random_split": false,
+  "test_used_for_tuning": false
+}

@@ -1,0 +1,16 @@
+{
+  "source_model": "DistilBERT",
+  "source_file": "results\\distilbert_test_predictions.csv",
+  "signal_definition": "P(bullish) - P(bearish)",
+  "aggregation_level": "daily",
+  "documents": 1223,
+  "days_with_news": 141,
+  "calendar_days": 143,
+  "coverage_pct": 98.6013986013986,
+  "date_min": "2025-01-01 00:00:00",
+  "date_max": "2025-05-23 00:00:00",
+  "mean_sentiment": 0.12258056697364486,
+  "median_sentiment": 0.200006655,
+  "mean_news_per_day": 8.673758865248226,
+  "max_probability_sum_error": 1.359999999284156e-07
+}

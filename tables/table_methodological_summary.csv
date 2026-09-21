@@ -1,0 +1,11 @@
+﻿component,definition
+PLN split,Train 2021-2023; validation 2024; test 2025
+PLN primary metric,Macro-F1
+Selected NLP model,DistilBERT
+Sentiment signal,P(bullish) - P(bearish)
+Asset universe,15 cryptoassets
+Recommendation calibration,2025-02-01 to 2025-03-08
+Embargo,7 days
+Recommendation evaluation,2025-03-16 to 2025-05-16
+Primary ranking metric,NDCG@10
+Treatments,T0 quantitative; T1 quantitative + sentiment exposure

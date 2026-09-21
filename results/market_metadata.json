@@ -1,0 +1,43 @@
+{
+  "source": "Yahoo Finance via yfinance",
+  "download_start": "2024-11-01",
+  "download_end_exclusive": "2025-06-15",
+  "experiment_start": "2025-01-01",
+  "experiment_end": "2025-05-23",
+  "candidate_assets": [
+    "BTC",
+    "ETH",
+    "BNB",
+    "XRP",
+    "SOL",
+    "ADA",
+    "DOGE",
+    "AVAX",
+    "LINK",
+    "DOT",
+    "LTC",
+    "BCH",
+    "XLM",
+    "TRX",
+    "ETC"
+  ],
+  "selected_assets": [
+    "ADA",
+    "AVAX",
+    "BCH",
+    "BNB",
+    "BTC",
+    "DOGE",
+    "DOT",
+    "ETC",
+    "ETH",
+    "LINK",
+    "LTC",
+    "SOL",
+    "TRX",
+    "XLM",
+    "XRP"
+  ],
+  "selection_rule": ">=95% close-price coverage",
+  "failed_assets": []
+}

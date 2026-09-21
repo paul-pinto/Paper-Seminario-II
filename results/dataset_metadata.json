@@ -1,0 +1,19 @@
+{
+  "dataset": "ExponentialScience/DLT-Sentiment-News",
+  "raw_file": "data\\raw\\dlt_sentiment_news.parquet",
+  "raw_rows": 23301,
+  "raw_columns": 17,
+  "clean_rows": 23293,
+  "removed_duplicates": 8,
+  "timestamp_min": "2021-01-01 09:34:00",
+  "timestamp_max": "2025-05-23 19:55:52",
+  "target": "market_direction",
+  "labels": [
+    "0",
+    "1",
+    "2"
+  ],
+  "unique_sources": 23061,
+  "unique_urls": 23299,
+  "sha256_raw": "0ee59f54b87ff76c369f4998e2d8bafc99b1fad96b2eff3d82304ab1c466853a"
+}

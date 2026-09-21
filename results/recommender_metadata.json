@@ -1,0 +1,33 @@
+{
+  "primary_metric": "NDCG@10",
+  "n_assets": 15,
+  "k": 10,
+  "forward_horizon_days": 7,
+  "calibration_start": "2025-02-01",
+  "calibration_end": "2025-03-08",
+  "embargo_days": 7,
+  "evaluation_start": "2025-03-16",
+  "evaluation_end": "2025-05-16",
+  "beta_window": 30,
+  "beta_min_periods": 20,
+  "ridge_alpha": 1.0,
+  "profiles": {
+    "conservative": 1.0,
+    "moderate": 0.5,
+    "aggressive": 0.15
+  },
+  "T0_features": [
+    "momentum_7",
+    "momentum_30",
+    "volatility_14"
+  ],
+  "T1_features": [
+    "momentum_7",
+    "momentum_30",
+    "volatility_14",
+    "sentiment_exposure"
+  ],
+  "regime_definition": "BTC trailing 14-day momentum; tertile thresholds estimated on calibration only",
+  "regime_lower_threshold": -0.0776157616535148,
+  "regime_upper_threshold": -0.04234608263152137
+}

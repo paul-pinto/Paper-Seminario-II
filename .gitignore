@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Caches
+.cache/
+hf-cache/
+pip-cache/
+
+# Modelos pesados
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# LaTeX auxiliares
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Sistema
+.DS_Store
+Thumbs.db

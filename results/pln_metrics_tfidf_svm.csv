@@ -1,0 +1,2 @@
+﻿model,split,accuracy,precision_macro,recall_macro,macro_f1,weighted_f1,inference_seconds,inference_ms_per_doc
+TF-IDF + LinearSVC,test,0.45298446443172524,0.44548189617369166,0.44725400919705005,0.44442140089701443,0.45360594668837617,0.12542220000250381,0.10255290270033018

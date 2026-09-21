@@ -1,0 +1,2 @@
+﻿metric,comparison,mean_difference,ci95_lower,ci95_upper,wilcoxon_statistic,wilcoxon_p,n_dates
+NDCG@10,T1 - T0,0.005563819461351965,-0.00417941512841508,0.015871961229701147,818.0,0.4751805002284377,62

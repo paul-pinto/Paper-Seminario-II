@@ -1,0 +1,4 @@
+﻿profile,treatment,feature,coefficient
+conservative,T1,sentiment_exposure,0.0160764354188875
+moderate,T1,sentiment_exposure,0.0109892967888363
+aggressive,T1,sentiment_exposure,0.0074282997478005

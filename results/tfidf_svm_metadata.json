@@ -1,0 +1,30 @@
+{
+  "model": "TF-IDF + LinearSVC",
+  "selection_metric": "validation_macro_f1",
+  "random_state": 42,
+  "train_period": "2021-01-01 to 2023-12-31",
+  "validation_period": "2024-01-01 to 2024-12-31",
+  "test_period": "2025-01-01 to 2025-05-23",
+  "best_config": {
+    "config_id": 26,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_features": 30000,
+    "C": 0.5,
+    "class_weight": "balanced"
+  },
+  "validation_macro_f1": 0.4854777355634811,
+  "test_metrics": {
+    "split": "test",
+    "accuracy": 0.45298446443172524,
+    "precision_macro": 0.44548189617369166,
+    "recall_macro": 0.44725400919705005,
+    "macro_f1": 0.44442140089701443,
+    "weighted_f1": 0.45360594668837617,
+    "inference_seconds": 0.12542220000250381,
+    "inference_ms_per_doc": 0.10255290270033018
+  }
+}
